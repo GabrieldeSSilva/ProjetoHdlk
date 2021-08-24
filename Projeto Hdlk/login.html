@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<title> LOGIN</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <Link rel="stylesheet" href="css/login.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+   <nav class="menu">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="cliente.html">Sua Pagina</a></li>
+      </ul>
+  </nav>
+<img src="imgs/Titulo1.png" width="100%">
+<br>
+<br>
+<form>   
+   <div class ="formulario">
+      <div class="form-group">
+         <label for="nameInput">Nome</label>
+         <input type="text" class="form-control" id=nameInput" placeholder="Nome">
+         </div>
+      <div class="form-group">
+         <label for ="ageInput">Idade</label>
+         <input type="number" class="form-control" id=ageInput" placeholder="Idade">
+         </div>
+         <div class="form-group">
+            <label for ="emailInput">Email</label>
+            <input type="email" class="form-control" id=emailInput" placeholder="email">
+            </div>
+   <button class ="btn btn-danger btn-lg btn-block" id="addButton">Adicionar</button>
+</form>
+</div>    
+<ul id= "userList"></ul>
+</div> 
+<div class="rodapé">
+   <center><h1>Gabriel de S Silva -  ® </h1></center>
+ </div>    
+ 
+ <script type="module" src=".Js/script.js"></script>
+<script src="Js/realtimedtbs.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://projetohtlk-default-rtdb.firebaseio.com/"></script>
+</html>
